@@ -1,0 +1,32 @@
+import logo from './logo.svg';
+import './App.css';
+import NavBar from './components/NavBar/Navbar';
+import Home from './components/Home/Home'
+import Contact from './components/Contact/Contact';
+import About from './components/About/About';
+import Reviews from './components/Reviews/Reviews';
+import Books from './components/Books/Books'
+function App() {
+  return (
+    <div className="App">
+      <BrowserRouter>
+      
+      <Navbar/>
+
+      <Routes>
+
+      <Route path='/' element={<Home />}/>
+      <Route path='About' element={<About />}/>
+      <Route path='Contact' element={<Contact />}/>
+      <Route path='Reviews' element={<Reviews />}/>
+      <Route path='add' element={<AddReviews />}/>
+      <Route path='Books' element={<Books />}/>
+      
+      </Routes>
+      </BrowserRouter>
+     
+    </div>
+  );
+}
+
+export default App;

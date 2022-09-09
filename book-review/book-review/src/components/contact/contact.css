@@ -1,0 +1,22 @@
+.contact {
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: rgb(3, 55, 99);
+    color: white;
+}
+.contact-title {
+    width: 40%;
+    padding-top: 30px;
+}
+
+.contact-pages{
+    width: 40%;
+    padding-top: 30px;
+ 
+}
+img{
+    height: 50vh;
+    width: 50%;
+}
