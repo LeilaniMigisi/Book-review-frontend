@@ -50,7 +50,12 @@
     "engines": {
       "node": "14.x",
       "npm": "7.x"
+    },
+    "scripts": {
+      "build": "[my-framework] build --output public"
     }
+  
+
   
 
   
