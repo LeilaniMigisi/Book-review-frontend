@@ -7,15 +7,12 @@ const About = () => {
     <h1>About</h1>
     <div className="about">
     <div className="img">
-    <img src={process.env.PUBLIC_URL + '/images/img3.jpg'} alt="Valentine" className='image1'></img>
+    <img src={process.env.PUBLIC_URL + 'https://s.gr-assets.com/assets/about/headerImages/About-Carousel-1-4ecdb327a458a36e6e897abe7839e3b9.jpg'} alt="oops" className='image1'></img>
     </div>
         <div className="content">
-            <p>Help others make better choices</p>
-            <p>Review your favourite Restaurants</p>
-            <p>Help others make better choices</p>
-            <p>Review your favourite Restaurants</p>
-            <p>Help others make better choices</p>
-            <p>Review your favourite Restaurants</p>
+            <p>ALWAYS BOOKS. NEVER BORING.</p>
+            <p>At Fantasy Book Review we are dedicated to reading and reviewing the very best fantasy books for both children and adults (both young and old).</p>
+            
         </div>
     </div>
     <div className="about">

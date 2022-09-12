@@ -1,44 +1,48 @@
+:root {
+    --mainColor: rgb(179, 116, 126);
+    --mainColorLight: rgb(187, 49, 49);
+    --secondaryColor: rgb(197, 54, 85);
+    --textColor: white;
+}
 .navbar {
-    height: 60px;
-    width: 100%;
-    display: flex;
+    /* font-size: 2.5rem; */
+    margin-right: 50px;
+    text-align: justify;
     justify-content: space-between;
+    /* width: auto; */
+    /* position: fixed; */
+    display: flex;
     align-items: center;
-    background: rgb(3, 55, 99);
-    height: 15vh;
+    /* text-decoration: none; */
+    /* list-style: none; */
+    background-color: var(--mainColor); 
+    width: 100vw;
+    /* float: none; */
+    height:80px ;
+    margin-top: -20px;
+    font-weight: bold;
+    color: rgb(0, 15, 15);
+    vertical-align: top;
 }
-
-.navbar > .nav-logo {
-    font-weight: 700;
-    font-size: 38px;
-    margin: 15px;
-    color: aliceblue;
-}
-
-.navbar > .nav-items > a {
-    color: aliceblue;
-    font-size: 20px;
+.nav{
     text-decoration: none;
-    margin: 15px;
-    position: relative;
-    opacity: 0.9;
+    list-style: none;
 }
-
-.navbar > .nav-items > a:hover {
-    opacity: 1;
+.head {
+    font-size: 2.5rem;
+    margin-right: 50px;
+    align-items: center;
+    text-align: justify;
+    display: flex;
+    color: blueviolet;
 }
-
-.navbar > .nav-items > a::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: all .45s;
+.head:hover {
+    color: var(--secondaryColor);
 }
-
-.navbar > .nav-items > a:hover::before{
-    width: 100%;
+.navbar a{
+    margin-left: 15px;
+    color: var(--secondary-color);
+}
+.about{
+    cursor: pointer;
 }
