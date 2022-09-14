@@ -4,7 +4,7 @@ import "./Contact.css"
 function Contact() {
     return (
         <div>
-            <h1>Contact us for more information</h1>
+            <h1>Contact us for more information.</h1>
             <div className="img">
                 {/* <img src={process.env.PUBLIC_URL + '/images/CONTACT.jpg'} alt="Leila" className='image1'></img> */}
                  </div>
