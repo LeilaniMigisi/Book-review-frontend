@@ -8,7 +8,7 @@ const Books = () => {
   const [books, setBook] = useState([])
 
     useEffect(()=>{
-        fetch("http://localhost:9292/books")
+        fetch("http://hp-api.herokuapp.com/api/characters/house/gryffindor")
         .then(res=>res.json())
         .then((data) =>
         setBook(data)   

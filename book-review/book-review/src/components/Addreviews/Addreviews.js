@@ -48,7 +48,7 @@ function AddReviews(){
         };
 
     
-        fetch("http://localhost:9292/reviewss",{
+        fetch("http://hp-api.herokuapp.com/api/characters/house/gryffindor",{
           method: "POST",
           headers:{
             "Content-Type": "application/json",

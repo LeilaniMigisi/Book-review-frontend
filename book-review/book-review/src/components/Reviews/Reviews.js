@@ -9,7 +9,7 @@ function Reviews(){
         image_url:"", 
     })
     useEffect(()=>{
-        fetch("http://localhost:9292/books")
+        fetch("http://hp-api.herokuapp.com/api/characters/house/gryffindor")
         .then((res)=> res.json())
         .then((data) =>{
          setComments(data)
