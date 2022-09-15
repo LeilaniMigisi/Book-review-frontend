@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react'
-import { BrowserRouter as Router, Route , Routes} from 'react-router-dom'
+import {Route ,Routes} from 'react-router-dom'
 import NavBar from './components/NavBar/Navbar';
 import Home from './components/Home/Home'
 import Contact from './components/Contact/Contact';
@@ -11,7 +11,7 @@ import Books from './components/Books/Books'
 function App() {
   return (
     <div className="App">
-      <Router>
+      
       <NavBar/>
 
       <Routes>
@@ -24,7 +24,7 @@ function App() {
        <Route path='Books' element={<Books />}/>
       
       </Routes>
-      </Router>
+      
      
     </div>
   );
